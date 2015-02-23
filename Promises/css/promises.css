@@ -1,0 +1,30 @@
+﻿.charts 
+{
+    height: 150px;
+    margin: 50px;
+    width: 500px;
+}
+
+    .charts progress {
+        display: inline;
+        height: 20px;
+        margin: 0 -30px;
+        transform: rotate(-90deg);
+        width: 100px;
+    }
+
+progress.A {
+    color: red;
+}
+
+progress.B {
+    color: blue;
+}
+
+progress.C {
+    color: yellow;
+}
+
+progress.D {
+    color: green;
+}
