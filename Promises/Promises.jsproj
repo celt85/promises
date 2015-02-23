@@ -56,7 +56,9 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="css\startPage.css" />
+    <Content Include="js\errors.js" />
     <Content Include="js\startPage.js" />
+    <Content Include="pages\errors.html" />
     <Content Include="startPage.html" />
     <Content Include="pages\promises.html" />
     <Content Include="images\logo.scale-100.png" />
