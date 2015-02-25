@@ -13,6 +13,7 @@
     this.RESET_BUTTON_SELECTOR = "#reset";
     this.ERROR_BUTTON_SELECTOR = "#errorButton";
     this.SECOND_ERROR_BUTTON_SELECTOR = "#errorButton2";
+    this.GROUP_BUTTON_SELECTOR = "#group";
     this.PROGRESS_SELECTOR = "progress";
 
     this.ONE_SECOND = 1000;

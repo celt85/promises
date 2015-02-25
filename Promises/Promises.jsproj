@@ -59,7 +59,9 @@
     <Content Include="js\common.js" />
     <Content Include="js\consts.js" />
     <Content Include="js\errors.js" />
+    <Content Include="js\chaining.js" />
     <Content Include="js\startPage.js" />
+    <Content Include="pages\chaining.html" />
     <Content Include="pages\errors.html" />
     <Content Include="startPage.html" />
     <Content Include="pages\promises.html" />
