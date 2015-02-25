@@ -7,23 +7,23 @@
     <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
     <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
 
-    <link href="../css/errors.css" rel="stylesheet" />
+    <link href="../css/promises.css" rel="stylesheet" />
+    <script src="../js/consts.js"></script>
+    <script src="../js/common.js"></script>
     <script src="/js/errors.js"></script>
 </head>
 <body>
-    <div>Error handling</div>
+    <h1>Error handling</h1>
 
-    <label>First number: </label>  
-    <input type="number" id="firstNumber" />
-    <br />
-    <label>Second number: </label>
-    <input type="text" id="secondNumber" />
-
-    <br />
-    <br />
-    <button>Calculate</button>
-    <br />
-    <br />
-    <label>Result: <span id="#result"></span></label>
+    <div id="chart_1" class="chart">
+        <progress class="A" value="0" max="100"></progress>
+        <progress class="B" value="0" max="100"></progress>
+        <progress class="C" value="0" max="100"></progress>
+        <progress class="D" value="0" max="100"></progress>
+        <br />
+        <button type="button">Show</button>
+        <button type="button" id="errorButton">Error</button>
+        <button type="button" id="errorButton2">Error 2</button>
+    </div>
 </body>
 </html>
